@@ -1,4 +1,29 @@
 h1 {
   
-  background-color:blue;
+  background-color: wheat;
+  text-align: center;
+  font-size: 140px;
+}
+
+.nav {
+  text-align: center;
+  background-color: black;
+}
+
+
+.nav li {
+  display: inline-block;
+  font-size: large;
+  color: white;
+  text-align: center;
+  padding: 0 15px;
+
+}
+
+a {
+  color:white;
+}
+
+#fireIce {
+  
 }
