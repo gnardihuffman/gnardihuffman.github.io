@@ -78,7 +78,7 @@ main {
 }
 
 .home-page {
-    background-image: url(./pictures/NYC-pic.jpg);
+    background-image: url("./pictures/NYC-pic.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     display:flex;
