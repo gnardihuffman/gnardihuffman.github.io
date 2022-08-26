@@ -1,29 +1,263 @@
-h1 {
-  
-  background-color: wheat;
-  text-align: center;
-  font-size: 140px;
+
+*{
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    margin: 0px;
+    overflow: scroll;
 }
 
-.nav {
-  text-align: center;
-  background-color: black;
+nav {
+    display:flex;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: center;
+    color:black;
+    position: relative;
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    flex-wrap: wrap;
+
 }
 
+nav img {
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    background-repeat: no-repeat;
+    max-width: fit-content;
+}
 
-.nav li {
-  display: inline-block;
-  font-size: large;
-  color: white;
-  text-align: center;
-  padding: 0 15px;
+nav h2 {
+    position:absolute;
+    left: 80px;
+    max-width: 27%;
+    font-size: 1.5em;
+}
+
+.right-nav {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.right-nav li {
+    color: black;
+    text-decoration: none;
+    display:inline-flex;
+    padding: 10px;
 
 }
 
 a {
-  color:white;
+    color: black;
+    text-decoration: none;
 }
 
-#fireIce {
-  align-content: center;
+a:hover {
+    color: blue;
 }
+
+.separator {
+    display: flex;
+    justify-content: center;
+
+}
+
+.separator-line {
+    height: 10px;
+    width: 35%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 30px;
+}
+
+main {
+    margin-top: 78px;
+}
+
+.home-page {
+    background-image: url(./pictures/NYC-pic.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    background-color: rgba(237, 231, 231, 0.8);
+    text-align: center;
+    padding: 1em;
+    color: black;
+    border-radius: 5%;
+    max-width: 65%;
+    margin: 5em 3em 5em 3em;
+    height: 20em;
+    display: flex;
+    font-weight: bolder;
+    font-size: 130%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+li {
+    line-height: 1.5em;
+}
+
+
+.services-overview {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 25px;
+
+}
+
+
+.again {
+    font-size: 125%;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 20px;
+
+}
+
+.services-listed {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+
+.service-des {
+    width: 38%;
+    max-height: 60%;
+    margin: 20px;
+    max-width: 75%;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 20px;
+    
+}
+
+.service-des:hover {
+    background-color:blanchedalmond;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    text-align: justify;
+    padding: 25px;
+    
+}
+
+.about-content p {
+    line-height: 175%;
+}
+
+#headshot {
+    border-radius: 5%;
+    display: flex;
+    max-width: 100%;
+}
+
+
+.writing {
+    background-color: antiquewhite;
+}
+
+#recent-proj {
+    padding: 25px;
+    text-align: center;
+}
+.recent-projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.proj {
+    border: 1px solid black;
+    max-width: 30em;
+    padding: 20px;
+    margin: 2em;
+    border-radius: 5%;
+}
+
+.proj:hover {
+    background-color:blanchedalmond;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.projlink {
+    color:blue;
+}
+
+.projlink:hover {
+    font-size: 115%;
+}
+
+.proj h2 {
+    text-decoration: underline;
+}
+
+.proj h4 {
+    font-style: italic;
+    font-size: 115%;
+}
+
+.contact {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.contact-content {
+    max-width: 50%;
+}
+
+.contact-info {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 25px;
+    font-size: 120%;
+}
+
+footer {
+
+    text-align: center;
+    color: white;
+    background-color:#006bb3;
+    font-size: 125%;
+    padding: 40px;
+}
+
