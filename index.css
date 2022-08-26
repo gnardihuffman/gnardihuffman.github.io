@@ -129,6 +129,7 @@ li {
 
 }
 
+
 .services-listed {
     display:flex;
     flex-wrap: wrap;
@@ -136,11 +137,13 @@ li {
     padding: 25px;
 }
 
+
+
 .service-des {
     min-width: 38%;
     max-height: 60%;
     margin: 20px;
-    max-width: 75%;
+    max-width: 30em;
     border: 1px solid black;
     border-radius: 5%;
     padding: 20px;
@@ -164,7 +167,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 75%;
+    max-width: 70%;
     text-align: center;
     text-align: justify;
     padding: 25px;
@@ -190,7 +193,7 @@ li {
     background-color: antiquewhite;
 }
 
-#recent-proj {
+.section-title {
     padding: 25px;
     text-align: center;
 }
