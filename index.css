@@ -79,6 +79,7 @@ main {
 
 .home-page {
     background-image: url(./pictures/NYC-pic.jpg);
+    background-color: transparent;
     background-size:cover;
     background-repeat: no-repeat;
     display:flex;
@@ -86,21 +87,24 @@ main {
     align-items: center;
 }
 
+
+
 .home-text {
-    background-color: rgba(237, 231, 231, 0.8);
+    background-color: black;
     text-align: center;
+    opacity:.75;
     padding: 1em;
-    color: black;
-    border-radius: 5%;
+    color: white;
+    border-radius: 0%;
     max-width: 65%;
-    margin: 5em 3em 5em 3em;
-    height: 20em;
+    margin: 12em 7.2em 12em 7.2em;
     display: flex;
     font-weight: bolder;
     font-size: 130%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
 
 }
 
