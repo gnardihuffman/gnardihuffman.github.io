@@ -3,10 +3,12 @@
     font-family: 'Poppins', sans-serif;
     line-height: 150%;
     margin: 0px;
-    overflow: scroll;
+    letter-spacing: .05em;
+    
 }
 
 nav {
+
     display:flex;
     background-color: white;
     justify-content: flex-end;
@@ -85,14 +87,16 @@ main {
     display:flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 
 
 .home-text {
+
     background-color: black;
     text-align: center;
-    opacity:.75;
+    opacity:.70;
     padding: 1em;
     color: white;
     border-radius: 0%;
@@ -104,8 +108,6 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 li {
@@ -200,11 +202,9 @@ li {
 }
 
 .proj {
-    border: 1px solid black;
-    max-width: 30em;
+    max-width: 40em;
     padding: 20px;
     margin: 2em;
-    border-radius: 5%;
 }
 
 .proj:hover {
